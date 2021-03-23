@@ -1,0 +1,10 @@
+/* -- 좌측메뉴 스타일 -- */
+#menuLeftLayer { width:200px; height:393px; background:url('./images/left/left_bg.gif') no-repeat right top; }
+#menuLeftLayer .menu_left_name { margin-left:10px; padding:0; }
+#menuLeftLayer .menu_left_list { width:174px; list-style:none; margin:4px 0px 0px 12px; padding:0; text-align:left; }
+#menuLeftLayer .menu_left_list LI { background:url('./images/left/left_list_bul.gif') 3px 10px no-repeat; border-bottom:1px solid #E5E5E5; margin:0; padding:8px 5px 8px 13px; }
+#menuLeftLayer .menu_left_list A { color:#000000; font-size:9pt; }
+#menuLeftLayer .menu_left_list SPAN.on { color:#980033; font-weight:bold; text-decoration:none; }
+#menuLeftLayer .menu_left_list .sub_list { background:none; margin:0; padding:0; }
+#menuLeftLayer .menu_left_list .sub_list UL { list-style:none; margin:4px 0px 4px 0px; padding:0; text-align:left; }
+#menuLeftLayer .menu_left_list .sub_list LI { background:none; border:0; margin:0; padding:4px 5px 4px 13px; }

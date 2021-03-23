@@ -1,0 +1,28 @@
+@charset "utf-8";
+/*------- layout ------- */
+#wrap{width:100%;/* background:url(./images/menu_top/header_bar.jpg) 0 0 repeat-x; */overflow:hidden;}
+/*------- header 시작 ------- */
+#header{width:1012px; height:110px; margin:0 auto;  position:relative; }
+#header .header_top{position:absolute; width:1007px; height:30px; top:25px; left:2px;}
+.header_top .logo{position:relative; width:400px;}
+.logo .toplogo{display:block; width:205px; height:30px;  float:left; margin-left: 5px; margin-top: -11px;}
+.logo .legallogo{display:block; width:95px; height:16px; float:left; margin-top:8px; margin-left:10px;}
+.header_top .info{width:230px; height:30px; position:absolute; top:10px; left:480px; color:#666666; }
+.header_top .info_cl{width:230px; height:30px; position:absolute; top:10px; left:565px; }
+.header_top .top_menu{position:absolute; width:300px; height:30px; top:10px; right:0px;}
+.header_top .top_menu_cl{position:absolute; width:205px; height:30px; top:10px; right:0px;}
+.header_top .top_menu_cl img{vertical-align: middle;}
+.header_top .top_admin{width:200px;margin-top: -15px;position: absolute;left: 800px;text-align: right;}
+
+#header .header_gnb{position:absolute; width:996px; height:30px; top:76px; left:1px;}
+.header_gnb .gnb{position:absolute; width:700px; height:30px; right:-20px; top:-5px;}
+.header_gnb .gnb li{float:left; }
+.header_gnb .gnb a{font-size:15px; color:#fff; margin-right:37px; font-weight:bold;}
+.header_gnb .gnb .last a{margin-right:0px;}
+.header_gnb .gnb a:hover{color:#1b2e59;}
+.header_gnb .gnb_cl{position:absolute; width:330px; height:30px; right:0px; top:2px;}
+.header_gnb .gnb_cl li{float:left; }
+.header_gnb .gnb_cl a{font-size:15px; color:#fff; margin-right:60px; font-weight:bold;}
+.header_gnb .gnb_cl .last a{margin-right:0px;}
+.header_gnb .gnb_cl a:hover{color:#1b2e59;}
+/*------- header 끝 ------- */

@@ -1,0 +1,137 @@
+@charset "UTF-8";
+/**
+ * 인쇄 스타일
+ */
+ 
+* {
+    font-size:12px;
+	font-family:NanumGothic;
+}
+
+BODY, IFRAME, TABLE, TEXTAREA {    
+    margin:0;
+    padding:0;       
+}
+
+FORM
+{
+  display: inline;
+}
+
+/* -- 메뉴 위치 표시부 스타일 -- */
+DIV.navigation_tit
+{    
+    color: #000000;    
+    font-size: 13px;
+    font-weight: bold;
+    border-top: 1px solid #999999;    
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;    
+}
+
+/* -- 팝업 제목 스타일 -- */
+DIV.popup_tit
+{    
+    color: #000000;    
+    font-size: 13px;
+    font-weight: bold;
+    border-top: 1px solid #999999;    
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;    
+}
+
+/* -- 컨텐츠 내 구분 제목 스타일 -- */
+DIV.section_tit
+{
+    color: #000000;   
+    font-size: 13px;
+    font-weight: bold;
+    margin: 15 0 3 0;    
+    text-align: left;
+}
+
+/* -- 컨텐츠 내 구분 제목 스타일 -- */
+DIV.section_tit_dash
+{
+    /* border: 1px solid blue; */
+    color: #000000;    
+    font-size: 13px;
+    font-weight: bold;
+    margin: 0 0 3 0;
+    padding: 30 0 0 0;
+    text-align: left;    
+}
+
+/* -- 페이징 목록 스타일 -- */
+DIV.paging
+{
+    font-size: 12px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* -- 라인 스타일 -- */
+DIV.dash
+{    
+    height:1px;         
+    border-bottom:1px dashed gray;
+    margin-top: 5px;
+}
+
+
+DIV.memo
+{
+    width: 100%;
+    height: 80px;
+    border: 0;
+    overflow-y: scroll;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+/* -- 테이블 열이 2개인 경우 스타일 -- */
+TABLE .th2 { width:15%; }
+TABLE .td2 { width:85%; }
+
+/* -- 테이블 열이 4개인 경우 스타일 -- */
+TABLE .th4 { width:15%; }
+TABLE .td4 { width:35%; }
+
+/* -- 기본형 테이블 스타일 -- */
+TABLE.basic { width:100%; background-color:#DBDBDB; border-spacing:1px; font-size:12px; }
+TABLE.basic CAPTION { min-height:18px; font-weight:bold; font-size:13px; padding:2px 2px 6px 14px; text-align:left; }
+TABLE.basic CAPTION SPAN.left { display:inline-block; float:left; }
+TABLE.basic CAPTION SPAN.right { display:inline-block; float:right; }
+TABLE.basic tr th { border:1px solid #E0E0E0; background-color:#f7f7f7; color:#545454; font-size:12px; font-weight:normal; padding:7px 3px 7px 3px!important; text-align:right; }
+TABLE.basic tr td { border:1px solid #E0E0E0; background-color:#FFFFFF; font-size:12px; padding:3px!important; word-break:break-all; }
+
+/* 
+
+TABLE.basic TH.high { height:50px; }
+table.basic { width:100%; background-color:#DBDBDB; border-spacing:1px; font-size:12px; }
+table.basic CAPTION { min-height:18px; font-weight:bold; font-size:13px; padding:2px 2px 6px 14px; text-align:left; }
+table.basic CAPTION SPAN.left { display:inline-block; float:left; }
+table.basic CAPTION SPAN.right { display:inline-block; float:right; }
+table.basic tr th { border:1px solid #E0E0E0; background-color:#f7f7f7; color:#545454; font-size:12px; font-weight:normal; padding:7px 3px 7px 3px!important; text-align:right; }
+table.basic tr td { border:1px solid #E0E0E0; background-color:#FFFFFF; font-size:12px; padding:3px!important; word-break:break-all; }
+ */
+
+TABLE.basic .bold { font-weight:bold; }
+TABLE.basic .gcolor1 { background-color:#FFFFCC; }
+TABLE.basic .gcolor2 { background-color:#CCFFFF; }
+TABLE.basic .gcolor3 { background-color:#FFCCFF; }
+TABLE.basic .gcolor4 { background-color:#FFCC99; }
+TABLE.basic .gcolor5 { background-color:#CCCCFF; }
+TABLE.basic .gcolor6 { background-color:#CCFFCC; }
+TABLE.basic .gcolor7 { background-color:#DCB9FF; }
+TABLE.basic .gcolor8 { background-color:#C8E3E3; }
+
+/* -- 목록형 테이블 스타일 -- */
+TABLE.list { width:100%; background-color:#FFFFFF; border-spacing:0; IEborder-spacing:expression(this.cellSpacing='0'); border:1px solid black; font-size:12px; }
+TABLE.list TR { height:25px; }
+TABLE.list TH { height:30px; background-color:#CCCCCC; border:1px solid black; font-size:12px; font-weight:bold; text-align:center; word-break:break-all; padding:3px; white-space:nowrap; }
+TABLE.list TD { background-color:#FFFFFF; border:1px solid black; word-break:break-all; padding:3px; font-size:12px; }
+

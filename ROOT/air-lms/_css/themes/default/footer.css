@@ -1,0 +1,5 @@
+
+#footer{ position:relative; width:100%; height:40px; border-top:1px solid #DDDDDD;}
+#footer .footer_sub{width:1200px; height:40px; margin:0 auto; margin-top:10px; position:relative;}
+.footer_sub .f_logo{ width:205px; height:30px; float:left;}
+.footer_sub .copyright{ width:340px; height:20px; margin-right:0px; margin-top:0px; float:right; text-align:right; color:#999999;}

@@ -1,0 +1,9 @@
+/* -- �듬찓���ㅽ���-- */
+#menuQuickLayer { position:absolute;left:1005px;top:0px;width:120px;z-index:1; }
+#menuQuickLayer .todo_list { list-style:none;margin:0;padding:0; }
+#menuQuickLayer .todo_list LI { background:url('./images/menu_quick/quick_todo_list_bul.gif') left center no-repeat; }
+#menuQuickLayer .todo_list LI.norecords { background:none;font-size:9pt;color:#666666;text-align:center;margin:10px 0px 10px 0px; }
+#menuQuickLayer .todo_list A { display:inline-block;font-size:9pt;padding:2px 0px 2px 15px }
+
+/* -- �듬찓��濡쒖븻鍮��ㅽ���-- */
+#menuQuickRawNbLayer { position:absolute;left:1005px;top:125px;width:121px;height:60px;z-index:1; background:url('./images/menu_quick/rawnb.gif') left center no-repeat;}

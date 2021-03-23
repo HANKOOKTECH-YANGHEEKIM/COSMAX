@@ -1,0 +1,89 @@
+/* -- LMS 媛��씠�뱶 �뒪���씪 -- */
+
+/** ���씠�� **/
+.con_title{height:87px; padding:0px 5px; margin-bottom:45px; border-bottom:2px solid #e844a5;}
+.con_title strong,
+.con_title span{display:block;}
+.con_title strong{padding:25px 0px 10px 0px; font-size:26px; color:#1f1f1f;}
+.con_title span{font-size:12px; color:#000;}
+
+
+/** �냼媛� **/
+.con_info{min-width:563px; min-height:350px; padding-right:345px; background:url("./images/guide/bg1.gif") no-repeat right top;}
+.con_info .title_01{display:block; padding-left:6px; margin-bottom:15px; font-size:20px; color:#555;}
+.con_info .title_01 span{color:#4938c7;}
+.con_info .title_02{display:block; padding-left:6px; margin-bottom:10px; font-size:16px; color:#1400a7;}
+.con_info .textbox{padding:0px 6px; line-height:21px; font-size:13px; color:#000;}
+.con_info p.textbox{margin:0px 0px 55px 0px;}
+.con_info ul.textbox{margin:0px 0px 40px 0px;}
+.con_info ul.textbox li{padding-left:7px; background:url("./images/guide/bul.gif") no-repeat left 10px;}
+
+
+/** 議곗쭅�룄 **/
+.con_group{min-width:908px; margin-top:13px; background:url("./images/guide/line.gif") no-repeat center top;}
+.con_group .box{position:relative; min-height:72px; margin:0px 16px 0px 19px; padding-left:157px; border:2px solid #e3e3e3; background:#f9f9f9;}
+.con_group .box .title{position:absolute; left:-6px; top:21px; width:122px; height:53px; line-height:42px; font-size:16px; text-align:center; color:#fff;}
+.con_group .box ul{}
+.con_group .box ul li{position:relative; width:312px; min-height:102px; padding-left:103px;}
+.con_group .box ul li .photo{position:absolute; left:0; top:0; width:86px; height:102px;}
+.con_group .box ul li .photo img{width:100%; height:100%;}
+.con_group .box ul li strong{display:block; font-size:14px; color:#1726b0;}
+.con_group .box ul li .stitle,
+.con_group .box ul li ul li{font-size:12px; color:#545454;}
+.con_group .box ul li ul li{width:auto; min-height:10px; padding-left:0;}
+
+.con_group .box.type_01{padding-top:15px; padding-bottom:15px;}
+.con_group .box.type_01 .title{background:url("./images/guide/title_03.gif") no-repeat left top;}
+
+.con_group .box.type_02{margin-top:50px;}
+.con_group .box.type_02 .title{background:url("./images/guide/title_04.gif") no-repeat left top;}
+.con_group .box.type_02 ul{padding:35px 0px;}
+.con_group .box.type_02 ul li{min-height:171px;}
+.con_group .box.type_02 ul li.last{min-height:102px;}
+.con_group .box.type_02 ul li ul{padding:0;}
+.con_group .box.type_02 ul li ul li{min-height:10px;}
+.con_group .box.type_02 ul li.leave{position:absolute; right:0px; top:548px; width:212px;}
+
+.con_group .box.type_02 .part{position:absolute; right:79px; top:104px; width:173px; min-height:100px; padding:47px 30px 24px 30px; border:2px solid #e3e3e3; background:#fff;}
+.con_group .box.type_02 .part .title{position:absolute; left:50%; top:-20px; width:163px; height:41px; margin-left:-81px;}
+.con_group .box.type_02 .part .photo{width:86px; height:102px; margin:0px auto 20px auto;}
+.con_group .box.type_02 .part strong{display:block; font-size:14px; color:#1726b0;}
+.con_group .box.type_02 .part ul{padding:0;}
+.con_group .box.type_02 .part .stitle,
+.con_group .box.type_02 .part ul li{line-height:20px; font-size:12px; color:#545454;}
+.con_group .box.type_02 .part ul li{min-height:10px; padding-left:0;}
+
+
+
+
+
+
+.container { position:relative; width:995px; margin:8px auto 0; }
+.title { border-bottom:1px solid #b8b8b8; padding:0 0 15px 25px; margin-bottom:20px; background:url('./images/guide/title_bg.gif') 0 10px no-repeat; font-size:28px; font-weight:bold; }
+.title span { padding:0 0 0 20px; margin-left:20px; background:url('./images/guide/title_s_bg.gif') 0 50% no-repeat; font-size:24px; font-weight:normal; color:#336c9e;}
+.title_s {margin-bottom:15px; font-size:20px; font-weight:bold; letter-spacing:-1px;  }
+.title_s span { padding:0 0 0 10px; font-size:14px; font-weight:normal;}
+
+.dvbox { padding:15px 20px; background:#f5f5f5; margin-bottom:30px; border:1px solid #e0e0e0; font-size:14px;  }
+
+.about_block { border-bottom:1px solid #e0e0e0; margin-bottom:20px; padding-bottom:20px;}
+.about_block p { margin-bottom:15px; font-size:16px; color:#1d468d; font-weight:bold; }
+.about_block ul { padding-left:20px; }
+.about_block ul li { padding-bottom:5px; }
+
+.box_big { position:relative; padding:30px 0; background:#fdf9f3; border:1px solid #e0e0e0; overflow:hidden; text-align:center;}
+.box_big .organ_ceo { position:relative; width:218px; background:#fff; border:1px solid #5490c6; text-align:center; margin:0 auto; }
+.box_big .organ_ceo .team { position:relative; line-height:43px; height:43px; background:#5490c6; font-size:14px; font-weight:bold; color:#fff; }
+.box_big .organ_ceo .name { position:relative; line-height:43px; height:43px; font-size:14px; font-weight:bold;  }
+.box_big .organ_ceo .name span { font-weight:normal;  }
+
+.box_big .tree { position:relative; text-align:center; margin:0 auto; }
+
+.box_big .organ_box { text-align:center; margin:0 auto; width: 920px;}
+.box_big .organ { position:relative; float:left; width:218px; background:#fff; border:1px solid #5490c6; text-align:center; margin-left:10px; }
+.box_big .organ .team { position:relative; line-height:43px; height:43px; background:#5490c6; font-size:14px; font-weight:bold; color:#fff; }
+.box_big .organ .name { position:relative; line-height:43px; height:43px; font-size:14px; font-weight:bold;  border-bottom:1px solid #5490c6; }
+.box_big .organ .name span { font-weight:normal;  }
+.box_big .organ .spec { padding:15px; text-align:left; min-height:120px;  border-bottom:1px solid #5490c6; }
+.box_big .organ .contact { padding:15px; text-align:left; }
+

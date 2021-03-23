@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* font-face */
+/*@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);*/
+/*@import url('/air-lms/_css/notosanskr.css');*/
+
+html {margin:0; padding:0; -webkit-text-size-adjust:none}
+body {font-weight:normal;font-size:12px;line-height:18px;font-family:'Noto Sans KR', sans-serif;'nanum', 'dotum', 'AppleGothic';color:#333;-webkit-text-size-adjust:none;}
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, radio, select, p, button {margin:0;padding:0;}
+h1, h2, h3, h4, h5, h6 {font-weight:normal; font-size:100%}
+ul, ol, li {list-style:none}
+fieldset, img {border:0; vertical-align:middle}
+address, em {font-style:normal}
+table {width:100%; border-collapse:collapse}
+button {border:0; background:none; cursor:pointer}
+hr {display:none}
+a {color:#555; text-decoration:none}
+a:hover,a:focus {color:#000;}
+caption,legend {visibility:hidden; overflow:hidden; width:0; height:0; font-size:0; line-height:0}
+input,textarea,select {vertical-align:middle; color:#7e7e7e}
+input {*font-family:'nanum', 'dotum', 'AppleGothic'}
+button, label, input[type=image] {cursor:pointer; vertical-align:middle}
+input[type="text"],
+input[type="password"] {border:1px solid #cdcdcd; padding:0 2px}
+select, textarea {border:1px solid #cdcdcd; color:#464646; }
+select {height:22px; font-size:12px; }
+strong, b, th {font-weight:700}
+
+table {width:100%; border-spacing:0}
+table th {border-collapse:collapse; *border-collapse:collapse}
+table td {border-collapse:collapse}
+
+article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {display:block}
+
+.blind {position:absolute; top:0; left:-999px; overflow:hidden; width:0; height:0; font-size:0; line-height:0}
+img {max-width:100%;}
+
+
